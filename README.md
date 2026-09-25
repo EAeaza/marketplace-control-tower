@@ -2,7 +2,7 @@
 
 One system that pulls every source a distributor's business depends on into one database, reconciles the sources against each other, and turns them into decisions its owner can check.
 
-**since Jun 2026, active · 709 commits · Python · SQLite · code: private**
+**since Jun 2026, active · 710 commits · Python · SQLite · code: private**
 ## The problem
 
 A cosmetics distributor in Uzbekistan sells through three marketplaces, wholesale buyers and retail chains. It keeps its books in 1C, stores goods at a third-party warehouse, and every sale also shows up as a fiscal receipt filed with the tax authority and as a national e-invoice. That makes five or six systems describing the same transaction, and they disagree: documents get mirrored, cancelled and reissued, fees are withheld or invoiced separately, and codes that look like product IDs aren't unique.
