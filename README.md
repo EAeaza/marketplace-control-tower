@@ -2,7 +2,7 @@
 
 One system that pulls every source a distributor's business depends on into one database, reconciles the sources against each other, and turns them into decisions its owner can check. Built and run from inside the company by its analyst.
 
-**since Jun 2026, active · Python · SQLite · code: private**
+**Jun 2026 – Oct 2026 · Python · SQLite · code: private**
 ## The problem
 
 A cosmetics distributor based in Uzbekistan sells through three marketplaces, wholesale buyers and retail chains, and no longer only at home: a sister company in Kazakhstan has its own accounting base, marketplace accounts and fulfilment warehouse, and marketplace orders are delivered to buyers in other CIS countries. Each country keeps its books in its own 1C base and its own currency. Goods sit at third-party warehouses, and every Uzbek sale also shows up as a fiscal receipt filed with the tax authority and as a national e-invoice. That makes many systems describing the same goods and money, and they disagree: documents get mirrored, cancelled and reissued, fees are withheld or invoiced separately, the same account arrives both as weekly files and through an API, and codes that look like product IDs aren't unique.
